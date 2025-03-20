@@ -1,0 +1,18 @@
+
+#HomePageImage {
+  margin: 0px;
+  padding: 0px;
+  width: 100vw; /* Full viewport width */
+  height: 100vh; /* Full viewport height */
+  background-image: url(public/HomeImage.jpg);
+  background-size: cover; /* Cover the entire section */
+  background-position: center; /* Centers image */
+  background-repeat: no-repeat; /* Prevents repeating */
+  overflow: hidden;
+  .film-effect {
+    filter: sepia(0.5) contrast(0.9) brightness(0.8);
+  }
+  
+
+}
+

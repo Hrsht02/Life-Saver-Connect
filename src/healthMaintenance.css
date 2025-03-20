@@ -1,0 +1,53 @@
+
+
+/* Container for Health Maintenance Section */
+.health-container {
+    text-align: center;
+    padding: 40px 20px;
+    background: white;
+}
+
+.health-container h2 {
+    font-size: 26px;
+    font-weight: bold;
+    color: #2d4a5a;
+    margin-bottom: 10px;
+}
+
+.health-description {
+    font-size: 16px;
+    color: #6c757d;
+    margin-bottom: 30px;
+}
+
+/* Flexbox Layout for BMI & BMR Sections */
+.health-bottom {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+/* Individual BMI & BMR Sections */
+.health-section {
+    background: rgba(232, 237, 239, 0.961);
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgb(175, 194, 199);
+    width: 350px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.health-section:hover {
+    transform: scale(1.05);
+}
+
+/* Input Fields & Buttons */
+.input-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+

@@ -1,0 +1,44 @@
+.footer {
+    background-color: #e7e2e2;
+    padding: 20px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* Left section (Life Saver Connect) */
+.footer-left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.social-icons {
+    display: flex;
+    gap: 10px;
+    font-size: 20px;
+}
+
+/* Right section (Services, Health, Life Enhancement) */
+.footer-right {
+    display: flex;
+    justify-content: flex-end; /* Align sections to the right */
+    flex: 2;
+    width: 100%;
+    gap: 50px; /* Space between sections */
+    text-align: left; /* Keep text aligned properly */
+}
+
+.footer-section {
+    flex: 1;
+}
+
+.footer-section h3 {
+    margin-bottom: 10px;
+}

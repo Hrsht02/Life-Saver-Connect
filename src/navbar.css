@@ -1,0 +1,93 @@
+/* Reset default margins & paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+    font-family: Arial, sans-serif;
+    background-image: url(src\Image\HomeImage.gif);
+}
+
+/* Navbar Container */
+.navbar {
+    width: 100%;
+    height: 75px; /* Adjust height as needed */
+    background-color: #156082; /* Deep blue background */
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000; /* Ensures navbar stays on top */
+}
+
+/* Left Side (Title & Punchline) */
+.left-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.heading {
+    padding-top: 5px;
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 10px;
+    line-height: 1;
+}
+
+.punch-line {
+    font-size: 16px;
+    /* font-weight: bold; */
+    font-style: italic;
+    opacity: 0.9;
+}
+
+/* Right Side (Nav Menu) */
+.right-box {
+    display: flex;
+}
+
+.nav-menu {
+    display: flex;
+    list-style: none;
+}
+
+.nav-menu li {
+    margin-left: 30px;
+}
+
+.nav-menu li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18 px;
+    /* font-weight: bold; */
+    transition: color 0.3s ease;
+}
+
+.nav-menu li a:hover {
+    color: rgb(179, 196, 211);
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        height: auto;
+        padding: 15px 20px;
+    }
+
+    .nav-menu {
+        margin-top: 10px;
+        justify-content: center;
+    }
+
+    .nav-menu li {
+        margin: 5px;
+    }
+}

@@ -1,0 +1,73 @@
+/* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Services Section */
+#service {
+    padding-top: 10px;
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #2d4a5a; /* Darker shade for better contrast */
+}
+
+/* Services Container */
+.service {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); /* Auto-adjust columns */
+    gap: 40px;
+    justify-content: center;
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Service Cards */
+.service-card {
+    border: none;
+    background-color: #2d7091; /* Consistent blue shade */
+    
+    color: white;
+    font-weight: bold;
+    padding: 20px;
+    height: 120px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 12px;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover Effect */
+.service-card:hover {
+    background-color: #1c5a74;
+    transform: translateY(-5px);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Responsive Design */
+@media (min-width: 900px) {
+    .service {
+        grid-template-columns: repeat(3, 1fr); /* 3 columns on large screens */
+    }
+}
+
+@media (max-width: 899px) {
+    .service {
+        grid-template-columns: repeat(2, 1fr); /* 2 columns on medium screens */
+    }
+}
+
+@media (max-width: 500px) {
+    .service {
+        grid-template-columns: repeat(1, 1fr); /* 1 column for small screens */
+    }
+}
