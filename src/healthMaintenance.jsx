@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./HealthMaintenance.css";
+import "./healthMaintenance.css";
 
 const HealthMaintenance = () => {
     const [bmiData, setBmiData] = useState({ weight: "", height: "", bmi: null });

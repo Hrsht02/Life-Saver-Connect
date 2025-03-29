@@ -7,7 +7,7 @@ export default function Homepage() {
         <div>
             <Navbar />
             <div id='HomePageImage'>
-                <img src="public/HomeImage.jpg" alt="Home Page" />  {/* ✅ Use imported image */}
+                <img src="/HomeImage.jpg" alt="Home Page" />  {/* ✅ Use imported image */}
             </div>
         </div>
     );
