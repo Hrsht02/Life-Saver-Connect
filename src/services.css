@@ -1,4 +1,4 @@
-/* Global Reset */
+
 * {
     margin: 0;
     padding: 0;
@@ -13,7 +13,7 @@
     font-size: 28px;
     font-weight: bold;
     margin-bottom: 20px;
-    color: #2d4a5a; /* Darker shade for better contrast */
+    color: #2d4a5a;
 }
 
 /* Services Container */
@@ -30,7 +30,7 @@
 /* Service Cards */
 .service-card {
     border: none;
-    background-color: #2d7091; /* Consistent blue shade */
+    background-color: #2d7091;
     
     color: white;
     font-weight: bold;
@@ -56,18 +56,18 @@
 /* Responsive Design */
 @media (min-width: 900px) {
     .service {
-        grid-template-columns: repeat(3, 1fr); /* 3 columns on large screens */
+        grid-template-columns: repeat(3, 1fr); 
     }
 }
 
 @media (max-width: 899px) {
     .service {
-        grid-template-columns: repeat(2, 1fr); /* 2 columns on medium screens */
+        grid-template-columns: repeat(2, 1fr); 
     }
 }
 
 @media (max-width: 500px) {
     .service {
-        grid-template-columns: repeat(1, 1fr); /* 1 column for small screens */
+        grid-template-columns: repeat(1, 1fr);
     }
 }

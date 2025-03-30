@@ -27,7 +27,7 @@ export default function Navbar() {
           <li onClick={() => scrollToSection("HomePageImage")} style={{ cursor: "pointer" }}>Home</li>
           <li onClick={() => scrollToSection("about-container")} style={{ cursor: "pointer" }}>About Us</li>
           
-          <li><img src="public/Profile.png" alt="Profile" height="25" width="25" /></li>
+          <li><img src="/Profile.png" alt="Profile" height="25" width="25" /></li>
         </ul>
       </div>
     </nav>

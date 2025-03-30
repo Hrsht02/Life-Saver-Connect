@@ -8,14 +8,14 @@
 body {
     overflow-x: hidden;
     font-family: Arial, sans-serif;
-    background-image: url(src\Image\HomeImage.gif);
+    background-image: url(/HomeImage.gif);
 }
 
 /* Navbar Container */
 .navbar {
     width: 100%;
-    height: 75px; /* Adjust height as needed */
-    background-color: #156082; /* Deep blue background */
+    height: 75px;
+    background-color: #156082; 
     color: white;
     display: flex;
     align-items: center;
@@ -24,7 +24,7 @@ body {
     position: fixed;
     top: 0;
     left: 0;
-    z-index: 1000; /* Ensures navbar stays on top */
+    z-index: 1000;
 }
 
 /* Left Side (Title & Punchline) */

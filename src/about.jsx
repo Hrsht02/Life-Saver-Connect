@@ -18,7 +18,7 @@ export default function About() {
                 </p>
             </div>
             <div className="about-image">
-                <img src="public/logo.png" alt="Life Saver Connect Logo" />
+                <img src="/logo.png" alt="Life Saver Connect Logo" />
             </div>
         </div>
     );
