@@ -8,7 +8,6 @@ import LifeEnhancement from './lifeEnhancement';
 import About from './about';
 import Footer from './footer';
 import Navbar from './navbar';
-
 function App() { 
   return (
     <BrowserRouter>
