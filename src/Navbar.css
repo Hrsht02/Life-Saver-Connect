@@ -79,15 +79,45 @@ body {
     .navbar {
         flex-direction: column;
         height: auto;
-        padding: 15px 20px;
+        padding: 0px 20px;
+        align-items: flex-start;
     }
 
     .nav-menu {
-        margin-top: 10px;
+        justify-content: center;
+       
+        
+    }
+    .nav-menu li, a {
+        margin-right: 10px;
+        font-weight: bold;
+    
+    }
+    
+}
+
+@media screen and (max-width: 890px) {
+    .navbar {
+        flex-direction: column;
+        height: auto;
+        padding: 2px 20px 0px 20px;
+        align-items: flex-start;
+    }
+
+    .nav-menu { 
         justify-content: center;
     }
 
     .nav-menu li {
-        margin: 5px;
+        margin: 10px;
+    }
+    .right-box {
+        display: none;
+    }
+    .punch-line {
+        font-size: 12px;
+    }
+    .heading {
+        font-size: 15px;
     }
 }
