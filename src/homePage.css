@@ -1,18 +1,34 @@
-
 #HomePageImage {
-  margin: 0px;
-  padding: 0px;
-  width: 100vw; /* Full viewport width */
+  width: 100%; /* Full viewport width */
   height: 100vh; /* Full viewport height */
-  background-image: url(/HomeImage.jpg);
-  background-size: cover; /* Cover the entire section */
-  background-position: center; /* Centers image */
-  background-repeat: no-repeat; /* Prevents repeating */
+  background-image: url('hero-image.jpg');
+  background-size: cover; 
+  background-position: center; /* Centers image on all screen sizes */
+  background-repeat: no-repeat;
   overflow: hidden;
-  .film-effect {
-    filter: sepia(0.5) contrast(0.9) brightness(0.8);
-  }
-  
-
 }
 
+/* Responsive Adjustments */
+@media (max-width: 1366px) { /* Tablets & small screens */
+  #HomePageImage {
+    height: 60vh; /* Reduce height on smaller screens */
+    background-size: cover; /* Adjust to fit */
+  }
+}
+
+@media (max-width: 500px) { /* Mobile devices */
+  #HomePageImage {
+    width: 100%;
+    height: 45vh; /* Reduce height further for small screens */
+    background-size: cover;
+  }
+  .lifeEnhancementTools {
+    display:flex;
+    flex-direction: row;
+  }
+}
+
+/* Optional: Film Effect */
+.film-effect {
+  filter: sepia(0.5) contrast(0.9) brightness(0.8);
+}
