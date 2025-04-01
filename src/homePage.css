@@ -11,7 +11,7 @@
 /* Responsive Adjustments */
 @media (max-width: 1366px) { /* Tablets & small screens */
   #HomePageImage {
-    height: 60vh; /* Reduce height on smaller screens */
+    height: 100vh; /* Reduce height on smaller screens */
     background-size: cover; /* Adjust to fit */
   }
 }
