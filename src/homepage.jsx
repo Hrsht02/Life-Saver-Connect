@@ -7,7 +7,7 @@ export default function Homepage() {
         <div>
             <Navbar />
             <div id='HomePageImage'>
-                <img src="/HomeImage.jpg" alt="Home Page" /> 
+                 {/* <img src="/hero-image.jpg"  alt="Home Page" />  */}
             </div>
         </div>
     );
