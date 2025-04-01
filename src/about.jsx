@@ -7,11 +7,11 @@ export default function About() {
                 
                 <h2>Life Saver Connect</h2>
                 <p>
-                    This Emergency Life Saver Connect platform combines technology, information, and connectivity 
+                    This Life Saver Connect platform combines technology, information, and connectivity 
                     to enhance emergency medical services. By empowering the users with critical data and facilitating 
                     seamless communication, it contributes to saving lives and improving overall healthcare accessibility.
                 </p>
-                <p>
+                <p id="p2">
                     It is a platform where users can connect to their desired hospital when they are in an emergency 
                     or in any circumstances. Its main aim is to build the connectivity between the user, hospital, 
                     and transportation within no time when they are in emergency.
