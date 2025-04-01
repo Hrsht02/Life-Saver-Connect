@@ -1,7 +1,7 @@
 #HomePageImage {
   width: 100%; /* Full viewport width */
   height: 100vh; /* Full viewport height */
-  background-image: url('hero-image.jpg');
+  background-image: url('/hero-image.jpg');
   background-size: cover; 
   background-position: center; /* Centers image on all screen sizes */
   background-repeat: no-repeat;
