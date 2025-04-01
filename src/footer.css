@@ -42,3 +42,16 @@
 .footer-section h3 {
     margin-bottom: 10px;
 }
+@media (max-width: 775px) {
+    .footer-right {
+        display: none;
+    }
+    .footer-left {
+       display: flex;
+       flex-direction: column;
+    }
+    .footer-left p{
+    display: none;
+        
+    }
+}
